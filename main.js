@@ -21,7 +21,7 @@ const countdown = setInterval(() => {
   }
 }, 1000);
 document.getElementById('celebrateBtn').addEventListener('click', () => {
-  window.location="Celebrate video.mp4";
+  window.location="celebrate.html";
   celebrationSound.play();
 });
 const live=document.querySelector('#live');
