@@ -1,7 +1,7 @@
 const countdownElement = document.getElementById('countdown');
 const celebrationSound = document.getElementById('celebrationSound');
 
-const newYearDate = new Date(January 1, 2025 00:00:00').getTime();
+const newYearDate = new Date('January 1, 2025 00:00:00').getTime();
 
 const countdown = setInterval(() => {
   const now = new Date().getTime();
