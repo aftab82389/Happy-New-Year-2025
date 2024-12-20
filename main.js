@@ -21,7 +21,7 @@ const countdown = setInterval(() => {
   }
 }, 1000);
 document.getElementById('celebrateBtn').addEventListener('click', () => {
-  window.location="C:\Users\babur\OneDrive\Documents\AFTAB ALAM\PROJECT-4\celebrate.html";
+  window.location="Celebrate video.mp4";
   celebrationSound.play();
 });
 const live=document.querySelector('#live');
