@@ -143,19 +143,20 @@ img,video{
 }
 .text{
   width:50%;
-  height:300px;
-  font-size: 40px;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: capitalize;
-  background: url("_Pngtree_golden_halo_glow_light_effect_5551912-removebg-preview.png");
-  background-size: 100% 300px;
-  background-position: center;
-  color: #ffffff;
-  margin:20px; 
-  box-shadow: 0px 0px 100px 20px #16FFF5;
+    height:300px;
+    font-size: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    background: url("b83b8f2db65064274a84636c63dcfa9b.jpg");
+    background-position: center;
+    background-size: 110% 100%;
+    color: #ffffff;
+    margin:20px; 
+    box-shadow: 0px 0px 100px 20px #16FFF5;
+    padding: 0px 20px;
 }
 p{
   font-size: 40px;
