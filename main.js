@@ -1,7 +1,7 @@
 const countdownElement = document.getElementById('countdown');
 const celebrationSound = document.getElementById('celebrationSound');
 
-const newYearDate = new Date('January 1, 2025 00:00:00').getTime();
+const newYearDate = new Date(January 1, 2025 00:00:00').getTime();
 
 const countdown = setInterval(() => {
   const now = new Date().getTime();
@@ -12,7 +12,7 @@ const countdown = setInterval(() => {
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  countdownElement.innerHTML = '${days}d ${hours}h ${minutes}m ${seconds}s';
+  countdownElement.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
 
   if (distance < 0) {
     clearInterval(countdown);
