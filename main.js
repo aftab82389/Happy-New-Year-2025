@@ -60,7 +60,8 @@ var name = "";
 
 gift_btn.addEventListener('click', () => {
     if (i === 0) {
-        name = prompt("Enter your name");       
+        name = prompt("Enter your name");
+        console.log(name);
         if (name && name.trim() !== "") {
             gift_text.innerHTML=" 🎉 congratulations 🎉 " + name;
             gift_open.style.display = "block";
