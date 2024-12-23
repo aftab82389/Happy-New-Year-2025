@@ -58,7 +58,7 @@ const gift_text = document.querySelector(".gift_text");
 var i = 0;
 var name = ""; 
 
-gift_text.addEventListener('click', () => {
+gift_btn.addEventListener('click', () => {
     if (i === 0) {
         name = prompt("Enter your name");       
         if (name && name.trim() !== "") {
