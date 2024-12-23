@@ -56,18 +56,21 @@ live.addEventListener('click',()=>{
   dead.style.display='block';
   live.style.display='none'
 });
-const gift_open =document.querySelector(".gift_open"); 
-const gift_pack =document.querySelector(".gift_pack"); 
-const gift_btn =document.querySelector("#gift_btn");
-var i=0;
-var name=" ";
-  gift_btn.addEventListener('click', () => {
-    if(i==0){
-    var name=prompt("enter your name")
-    if(name!=" "){
-      gift_open.style.display="block";
-      i++
-    }
-    }
-})
+const gift_open = document.querySelector(".gift_open"); 
+const gift_pack = document.querySelector(".gift_pack"); 
+const gift_btn = document.querySelector("#gift_btn");
+var i = 0;
+var name = ""; // Initialize name as an empty string
 
+gift_btn.addEventListener('click', () => {
+    if (i === 0) {
+        name = prompt("Enter your name"); // No need to redeclare 'name'
+        // Check if name is not null and not just whitespace
+        if (name && name.trim() !== "") {
+            gift_open.style.display = "block";
+            i++;
+        } else {
+            alert("Please enter a valid name."); // Optional: alert user for invalid input
+        }
+    }
+});
