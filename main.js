@@ -60,6 +60,7 @@ const gift_open =document.querySelector(".gift_open");
 const gift_pack =document.querySelector(".gift_pack"); 
 const gift_btn =document.querySelector("#gift_btn");
 var i=0;
+var name=" ";
   gift_btn.addEventListener('click', () => {
     if(i==0){
     var name=prompt("enter your name")
