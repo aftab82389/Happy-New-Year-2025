@@ -1,134 +1,4 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-body {
-  width: 100%;
-  height: 100%;
-  color: white;
-  background: #444;
-}
-
-.header {
-  padding: 20px;
-  border-radius: 10px;
-  background: #111;
-  margin:0px 30px ;
-  margin-top: 80px;
-  text-align: center;
-  position:relative;
-  height:450px;
-  box-shadow: 0px 0px 100px 20px #AA48FF;
-  border:15px solid #fff0
-}
-
-h1 {
-  font-family: Georgia;
-  font-weight: 100;
-  font-size: 100px;
-  color: #fff;
-  text-shadow:
-    0 0 5px #fff,
-    0 0 10px #ff00ff;
- 
- 
-  animation: colorchange 8s infinite;
-}
-
-@keyframes colorchange {
-  0% {
-    text-shadow:
-      0 0 5px #fff,
-      0 0 10px #ff00ff,
-      0 0 20px #ff00ff,
-      0 0 30px #ff00ff,
-      0 0 40px #ff00ff,
-      0 0 50px #ff00ff,
-      0 0 60px #ff00ff;
-    opacity: 1;
-
-  }
-
-  25% {
-    text-shadow:
-      0 0 5px #fff,
-      0 0 10px #00ffff,
-      0 0 20px #00ffff,
-      0 0 30px #00ffff,
-      0 0 40px #00ffff,
-      0 0 50px #00ffff,
-      0 0 60px #00ffff;
-    opacity: .9;
-  }
-
-  50% {
-    text-shadow:
-      0 0 5px #fff,
-      0 0 10px #ffff00,
-      0 0 20px #ffff00,
-      0 0 30px #ffff00,
-      0 0 40px #ffff00,
-      0 0 50px #ffff00,
-      0 0 60px #ffff00;
-    opacity: .8;
-  }
-
-  75% {
-    text-shadow:
-      0 0 5px #fff,
-      0 0 10px #ff00ff,
-      0 0 20px #00ff00,
-      0 0 30px #00ff00,
-      0 0 40px #00ff00,
-      0 0 50px #00ff00,
-      0 0 60px #00ff00;
-    opacity: .9;
-  }
-
-  100% {
-    text-shadow:
-      0 0 5px #fff,
-      0 0 10px #ff00ff,
-      0 0 20px #ff00ff,
-      0 0 30px #ff00ff,
-      0 0 40px #ff00ff,
-      0 0 50px #ff00ff,
-      0 0 60px #ff00ff;
-    opacity: 1;
-  }
-}
-.countdown {
-  font-size: 2rem;
-  margin: 20px 0;
-}
-
-button {
-  padding: 15px 25px;
-  font-size: 2rem;
-  font-family: georgia;
-  color: #000;
-  background-color: #fff;
-  border: 5px solid #F69BFF; 
-  border-radius: 50px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  box-shadow: inset 0px 0px 40px 10px #F089FF, 05px 0px 100px 20px #F486FF;
-  margin-bottom: 50px;
-  
-  
-}
-button:hover {
-  background-color: #ff6b81;
-}
-.container{
-  background: #fff0;
-  width: 100wh;
-  height:450px;
-  margin: 5px;
-  display: flex;
-* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -147,7 +17,7 @@ button:hover {
     margin:30px;
     margin-top: 60px;
     text-align: center;
-    position:relative;
+    position :relative;
     height:450px;
     box-shadow: 0px 0px 100px 20px #AA48FF;
     border:15px solid #fff0
@@ -306,7 +176,7 @@ button:hover {
   
 }
 .sider1{
-  left:10px;
+  left :10px;
   transform: rotateY(180deg);
   
 }
@@ -336,7 +206,7 @@ button:hover {
   box-shadow: 0px 0px 80px 20px #FF6CAC;
 }
 #top{
-    width:100%;
+    width :100%;
     display: flex;
     justify-content:center ;
     align-items: center;
