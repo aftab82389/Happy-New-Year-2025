@@ -61,10 +61,12 @@ const gift_pack =document.querySelector(".gift_pack");
 const gift_btn =document.querySelector("#gift_btn");
 var i=0;
   gift_btn.addEventListener('click', () => {
-    if(i===0){
-    name=prompt("enter your name")
-    gift_open.style.display="block";
-    i++
+    if(i==0){
+    var name=prompt("enter your name")
+    if(name!=""){
+      gift_open.style.display="block";
+      i++
+    }
     }
 })
 
