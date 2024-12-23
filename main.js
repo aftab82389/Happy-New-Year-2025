@@ -67,10 +67,10 @@ gift_text.addEventListener('click', () => {
     if (i === 0) {
         name = prompt("Enter your name");       
         if (name && name.trim() !== "") {
-            gift_text.innerHTML="congratulations "+name;
+            gift_text.innerHTML=" 🎉 congratulations 🎉 " + name;
             gift_open.style.display = "block";
-            gift_text.style.display="block";
-            i++;
+            gift_text.style.display="block"
+            i++
         } else {
             alert("Please enter a valid name.");
         }
