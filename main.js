@@ -59,18 +59,20 @@ live.addEventListener('click',()=>{
 const gift_open = document.querySelector(".gift_open"); 
 const gift_pack = document.querySelector(".gift_pack"); 
 const gift_btn = document.querySelector("#gift_btn");
+const gift_text = document.querySelector(".gift_text");
 var i = 0;
-var name = ""; // Initialize name as an empty string
+var name = ""; 
 
-gift_btn.addEventListener('click', () => {
+gift_text.addEventListener('click', () => {
     if (i === 0) {
-        name = prompt("Enter your name"); // No need to redeclare 'name'
-        // Check if name is not null and not just whitespace
+        name = prompt("Enter your name");       
         if (name && name.trim() !== "") {
+            gift_text.innerHTML="congratulations "+name;
             gift_open.style.display = "block";
+            gift_text.style.display="block";
             i++;
         } else {
-            alert("Please enter a valid name."); // Optional: alert user for invalid input
+            alert("Please enter a valid name.");
         }
     }
 });
