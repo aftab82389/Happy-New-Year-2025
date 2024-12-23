@@ -63,7 +63,7 @@ var i=0;
   gift_btn.addEventListener('click', () => {
     if(i==0){
     var name=prompt("enter your name")
-    if(name!=""){
+    if(name!=" "){
       gift_open.style.display="block";
       i++
     }
