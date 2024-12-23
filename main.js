@@ -50,12 +50,7 @@ document.getElementById('celebrateBtn').addEventListener('click', () => {
   smoothScrollTo(celebrate,500)
   celebrationSound.play();
 });
-const live=document.querySelector('#live');
-const dead=document.querySelector('#dead');
-live.addEventListener('click',()=>{
-  dead.style.display='block';
-  live.style.display='none'
-});
+
 const gift_open = document.querySelector(".gift_open"); 
 const gift_pack = document.querySelector(".gift_pack"); 
 const gift_btn = document.querySelector("#gift_btn");
