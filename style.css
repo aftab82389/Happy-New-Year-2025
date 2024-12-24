@@ -99,8 +99,10 @@
     }
   }
   .countdown {
-    font-size: 2rem;
-    margin: 20px 0;
+    font-size: 3em;
+    margin: 60px 0px;
+    text-shadow: 5px -.7px 2px #f00;
+    font-weight: bold;
   }
   
   button {
