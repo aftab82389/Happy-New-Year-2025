@@ -57,13 +57,44 @@ const gift_btn = document.querySelector("#gift_btn");
 const gift_text = document.querySelector(".gift_text");
 var i = 0;
 var name = ""; 
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-database.js";
 
+const firebaseConfig = {
+    apiKey: "AIzaSyAeklfKOLl_3zIZ1sA81aqtWM3xikIbKas",
+    authDomain: "mgkvp-website.firebaseapp.com",
+    projectId: "mgkvp-website",
+    storageBucket: "mgkvp-website.appspot.com",
+    messagingSenderId: "306111041649",
+    appId: "1:306111041649:web:1c51ba0f01dfa5d1000bd0"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getDatabase();
+
+function insertData() {
+    if (name) {
+        set(ref(db, "New Year Project/" + name), {
+            Name: name
+        })
+        .then(() => {
+            console.log("Data inserted successfully");
+        })
+        .catch((error) => {
+            console.error("Error inserting data:", error);
+        });
+    } else {
+        console.error("Enroll number or name is missing");
+    }
+          }
+  
 gift_btn.addEventListener('click', () => {
     if (i === 0) {
         name = prompt("Enter your name");
         console.log(name);
         if (name && name.trim() !== "") {
             gift_text.innerHTML=" 🎉 congratulations 🎉 " + name;
+            insertData()
             gift_open.style.display = "block";
             gift_text.style.display = "block"
             i++
