@@ -93,7 +93,7 @@ gift_btn.addEventListener('click', () => {
         name = prompt("Enter your name");
         console.log(name);
         if (name && name.trim() !== "") {
-            gift_text.innerHTML="🎉 happy new year" + name +"🎉";
+            gift_text.innerHTML="🎉happy new year🎉<br>"+"🎉"+ name +"🎉";
             insertData()
             gift_open.style.display = "block";
             gift_text.style.display = "block"
