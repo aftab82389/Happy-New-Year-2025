@@ -96,6 +96,7 @@ gift_btn.addEventListener('click', () => {
             gift_text.innerHTML="🎉happy new year🎉<br>"+"🎉"+ name +"🎉";
             insertData()
             gift_open.style.display = "block";
+            gift_pack.style.display="none";
             gift_text.style.display = "block"
             i++
         } else {
