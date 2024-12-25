@@ -262,6 +262,7 @@
     color:transparent;
     font-weight:bold;
     display:none;
+    text-align:center;
     text-transform:capitalize;
     -webkit-text-stroke:3px #00ff00;
     -webkit-text-fill-color: #000000;
