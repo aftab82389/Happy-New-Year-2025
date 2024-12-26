@@ -1,0 +1,127 @@
+.review-container {
+  margin:30px 30px;
+  background:linear-gradient(#FF25FC25,#53EBFF25);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(50px);
+}
+#head_h1{
+  font-size: 60px;
+  padding-bottom: 10px;
+  color:#FCCF85;
+}
+#head_h2{
+  font-size: 40px;
+  color:#ABFC85;
+  font-family: Georgia;
+}
+#head_h1,#head_h2{
+  text-shadow: 0px 0px ;
+  animation:anime 4s linear infinite ;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.review-container input, textarea {
+  width: 100%;
+  padding: 20px;
+  font-size: 36px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: transparent;
+  color:#fff;
+  outline: none;
+}
+
+.review-container  button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 35px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 0px;
+  padding:25px 20px;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.review-container  button:hover {
+  background-color: #0056b3;
+}
+
+#reviews {
+  margin-top: 20px;
+}
+
+#reviewList {
+  list-style: none;
+  padding: 0;
+}
+
+#reviewList li {
+  background: transparent;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  text-transform: capitalize;
+}
+@media (max-width:770px){
+  .review-container {
+  margin:10px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(50px);
+}
+#head_h1{
+  font-size: 30px;
+  padding-bottom: 10px;
+  color:#FCCF85;
+}
+#head_h2{
+  font-size: 25px;
+  color:#ABFC85;
+  font-family: Georgia;
+}
+#head_h1,#head_h2{
+  text-shadow: 0px 0px ;
+  animation:anime 4s linear infinite ;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.review-container input, textarea {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.review-container  button {
+  font-size: 20px;
+  padding:5px 0px;
+  border-radius: 5px;
+}
+
+#reviews {
+  margin-top: 10px;
+}
+
+
+#reviewList li {
+  padding: 10px;
+  font-size: 12px;
+}
+}
