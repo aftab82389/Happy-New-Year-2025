@@ -137,7 +137,7 @@
     border:5px solid rgba(5, 116, 241, 0.6);
     box-shadow: 0px 0px 100px 30px #FDFF16 ;
     margin:0px 20px ;
-    
+    object-fit:cover;
   }
   .text{
     width:50%;
