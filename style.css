@@ -31,6 +31,7 @@
       0 0 5px #fff,
       0 0 10px #ff00ff,;
     animation: colorchange 8s infinite;
+    background: transparent;
   }
   
   @keyframes colorchange {
@@ -309,7 +310,7 @@
   h1{
   width:100%;
   font-size: 40px;
-  
+  background: transparent;
   }
   .header{
     margin: 10px;
