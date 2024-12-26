@@ -324,6 +324,13 @@
     width:90px;
     height:90px;
     margin: 0px;
+    position:absolute;
+  }
+  .sider1{
+    left:5px;
+  }
+  .sider2{
+    right:5px;
   }
   img,video{
     width:140px;
