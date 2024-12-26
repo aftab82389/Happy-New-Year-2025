@@ -53,7 +53,20 @@
     <div class="footer">
      <center><button id="celebrateBtn">Celebrate!</button></center> 
     </div>
-    <audio id="celebrationSound" src="pinterest_1734451662360116967" preload="auto" loop></audio>
-    <script src="main.js"type="module"></script>
+    <div class="review-container">
+    <h1 id="head_h1">Leave a Review</h1>
+    <form id="reviewForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <textarea id="review" placeholder="Write your review here..." rows="4" required></textarea>
+      <button type="submit"id="rew_btn">Submit Review</button>
+    </form>
+    <div id="reviews">
+      <h2 id="head_h2">All Reviews</h2>
+      <ul id="reviewList"></ul>
+    </div>
+    </div>
+    <audio id="celebrationSound" src="music.mp3" preload autoplay loop ></audio>
+    <script src="review.js" type="module"></script>
+    <script type ="module"src="main.js"></script>
 </body>
 </html>
