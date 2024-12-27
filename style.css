@@ -306,7 +306,8 @@
   box-shadow:0px 0px ;
   border-radius:0px;
   background:transparent;
-  
+  width:600px;
+  height:600px;
 }
 @media (max-width:768px){
   h1{
