@@ -74,7 +74,7 @@ const db = getDatabase();
 
 function insertData() {
     if (name) {
-        set(ref(db, "New Year Project/" + name), {
+        set(ref(db, "Rewarded person/" + name), {
             Name: name
         })
         .then(() => {
