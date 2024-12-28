@@ -47,8 +47,9 @@ function smoothScrollTo(element, duration = 1000) {
 const celebrate=document.querySelector('.celebrate');
 document.getElementById('celebrateBtn').addEventListener('click', () => {
   celebrate.style.display="block";
-  smoothScrollTo(celebrate,500)
   celebrationSound.play();
+  smoothScrollTo(celebrate,500);
+  
 });
 
 const gift_open = document.querySelector(".gift_open"); 
