@@ -23,6 +23,7 @@
 }
 
 form {
+  padding:10px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -53,7 +54,7 @@ form {
 }
 
 .review-container  button:hover {
-  background-color: #0056b3;
+  background: linear-gradient(145deg, #43464b, #4b4f55);
 }
 
 #reviews {
