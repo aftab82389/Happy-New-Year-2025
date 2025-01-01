@@ -16,7 +16,7 @@ const countdown = setInterval(() => {
 
   if (distance < 0) {
     clearInterval(countdown);
-    countdownElement.innerHTML = "Happy New Year!";
+    countdownElement.innerHTML = "Welcome To 2025!";
     celebrationSound.play();
   }
 }, 1000);
